@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #006d37;
+  --color-primary-container: #27ae60;
+  --color-secondary: #4058b1;
+  --color-surface: #f4fbf1;
+  --color-surface-container: #e9f0e6;
+  --color-surface-container-low: #eff6ec;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-surface text-[#171d17];
+  }
+}
